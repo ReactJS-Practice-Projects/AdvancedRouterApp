@@ -18,6 +18,7 @@ const QuoteDetail = () => {
     return <p>No quote found!</p>;
   }
 
+  //here we use nested route in to output additional component - "comments"
   return (
     <Fragment>
       <HighlightedQuote text={quote.text} author={quote.author} />
